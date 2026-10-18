@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>คามิน ครอบบัวบาน | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;800&family=Noto+Sans+Thai:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="layout">
+    <aside class="side">
+      <div class="badge" aria-hidden="true">คค</div>
+      <p class="id">รหัสนิสิต 67160318</p>
+      <nav>
+        <a href="#about">เกี่ยวกับฉัน</a>
+        <a href="#skills">ทักษะ</a>
+        <a href="#contact">ติดต่อ</a>
+      </nav>
+      <button id="themeBtn" class="toggle" aria-label="สลับธีม">โหมดมืด</button>
+    </aside>
+
+    <main>
+      <section class="hero" id="top">
+        <p class="hello">สวัสดีครับ ผมชื่อ</p>
+        <h1>คามิน<br>ครอบบัวบาน</h1>
+        <p class="role">นิสิตผู้หลงใหลการสร้างเว็บไซต์ และกำลังเรียนรู้การ deploy งานจริงด้วย Git</p>
+        <div class="cta">
+          <button id="helloBtn" class="primary">ทักทายหน่อย</button>
+          <a class="secondary" href="#contact">ดูช่องทางติดต่อ</a>
+        </div>
+        <p id="status" role="status">พร้อมใช้งาน</p>
+      </section>
+
+      <section id="about" class="block">
+        <h2>เกี่ยวกับฉัน</h2>
+        <p class="lead">ผมสนใจการพัฒนาเว็บไซต์ ชอบลองของใหม่ และตอนนี้กำลังฝึกใช้ Git, GitHub Actions และ GitHub Pages เพื่อให้งานขึ้นออนไลน์ได้เอง</p>
+        <dl class="facts">
+          <div><dt>ชื่อ</dt><dd>คามิน ครอบบัวบาน</dd></div>
+          <div><dt>รหัสนิสิต</dt><dd>67160318</dd></div>
+          <div><dt>กำลังเรียนรู้</dt><dd>Git และ GitHub Pages</dd></div>
+        </dl>
+      </section>
+
+      <section id="skills" class="block">
+        <h2>ทักษะ</h2>
+        <div class="skill-row">
+          <h3>เว็บ</h3>
+          <ul class="chips"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+        </div>
+        <div class="skill-row">
+          <h3>เครื่องมือ</h3>
+          <ul class="chips"><li>Git &amp; GitHub</li><li>GitHub Actions</li><li>GitHub Pages</li></ul>
+        </div>
+      </section>
+
+      <section id="contact" class="block">
+        <h2>ติดต่อ</h2>
+        <ul class="contact">
+          <li><span>อีเมล</span><a href="mailto:67160318@go.buu.ac.th">67160318@go.buu.ac.th</a></li>
+          <li><span>GitHub</span><a href="https://github.com/67160318-create" target="_blank" rel="noopener">github.com/67160318-create</a></li>
+        </ul>
+      </section>
+
+      <footer>เผยแพร่ด้วย GitHub Actions และ GitHub Pages</footer>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
